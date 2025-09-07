@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!--
+  Personal Portfolio Site
+  Structure: index.html, styles.css, script.js
+  To run: Open index.html in any modern browser
+  Features: Dark mode, responsive design, smooth animations, accessibility
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nethsalee - Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__brand">
+                <a href="#" class="logo">Nethsalee Samarawickrama</a>
+            </div>
+            
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#projects" class="nav__link">Projects</a></li>
+                    <li><a href="#skills" class="nav__link">Skills</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav">
+                <span class="nav-toggle__line"></span>
+                <span class="nav-toggle__line"></span>
+                <span class="nav-toggle__line"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Frontend Developer & UI/UX Designer</h1>
+                    <p class="hero__subtitle">Creating beautiful, accessible web experiences with modern technologies</p>
+                    <a href="#projects" class="btn btn--primary hero__cta">View My Work</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">About Me</h2>
+                </div>
+                <div class="about__content">
+                    <div class="about__text">
+                        <p class="about__bio">
+                            I’m an undergraduate pursuing a BSc (Hons) in Information Systems with a strong passion for frontend development. I enjoy crafting interactive and visually appealing web experiences while keeping up with the latest in technology. A tech enthusiast at heart, I’m also deeply interested in cybersecurity and constantly exploring ways to combine creativity with security-conscious design. I thrive on learning, experimenting, and building projects that challenge my skills and push me to innovate.
+                        </p>
+                        <ul class="about__highlights">
+                            <li>Frontend Development: Skilled in creating responsive, user-friendly, and visually engaging websites.</li>
+                            <li>Cybersecurity Awareness: Keen interest in secure coding practices and protecting digital assets.</li>
+                            <li>Tech Enthusiast: Always exploring new technologies, frameworks, and tools to stay ahead in the tech world.</li>
+                        </ul>
+                    </div>
+                    <div class="about__image">
+                        <img src="images/profilephoto.jpg" alt="Nethsalee profile photo" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Featured Projects</h2>
+                </div>
+                <div class="projects__grid">
+                    <article class="project-card">
+                        <div class="project-card__image">
+                            <div class="project-thumbnail"></div>
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">E-Commerce Dashboard</h3>
+                            <p class="project-card__description">
+                                Modern admin dashboard with real-time analytics, inventory management, 
+                                and responsive design built with React and D3.js.
+                            </p>
+                            <ul class="project-card__tech">
+                                <li>React</li>
+                                <li>TypeScript</li>
+                                <li>D3.js</li>
+                                <li>Node.js</li>
+                            </ul>
+                            <div class="project-card__actions">
+                                <a href="#" class="btn btn--secondary btn--small">Live Demo</a>
+                                <a href="#" class="btn btn--outline btn--small">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card__image">
+                            <div class="project-thumbnail"></div>
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Weather Forecast App</h3>
+                            <p class="project-card__description">
+                                Clean, intuitive weather app with location-based forecasts, 
+                                animated weather icons, and offline support using service workers.
+                            </p>
+                            <ul class="project-card__tech">
+                                <li>Vue.js</li>
+                                <li>PWA</li>
+                                <li>CSS Grid</li>
+                                <li>APIs</li>
+                            </ul>
+                            <div class="project-card__actions">
+                                <a href="#" class="btn btn--secondary btn--small">Live Demo</a>
+                                <a href="#" class="btn btn--outline btn--small">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card__image">
+                            <div class="project-thumbnail"></div>
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Task Management Tool</h3>
+                            <p class="project-card__description">
+                                Collaborative task management platform with drag-and-drop functionality, 
+                                real-time updates, and team collaboration features.
+                            </p>
+                            <ul class="project-card__tech">
+                                <li>JavaScript</li>
+                                <li>Socket.io</li>
+                                <li>Express</li>
+                                <li>MongoDB</li>
+                            </ul>
+                            <div class="project-card__actions">
+                                <a href="#" class="btn btn--secondary btn--small">Live Demo</a>
+                                <a href="#" class="btn btn--outline btn--small">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Skills & Technologies</h2>
+                </div>
+           <div class="tag-cloud">
+  <span>JavaScript</span>
+  <span>React</span>
+  <span>Python</span>
+  <span>TypeScript</span>
+  <span>CSS</span>
+  <span>HTML</span>
+  <span>Node.js</span>
+  <span>MongoDB</span>
+  <span>Git</span>
+  <span>Webpack</span>
+  <span>Figma</span>
+  <span>Wireshark</span>
+</div>
+
+            </div>
+
+
+
+
+
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Get In Touch</h2>
+                </div>
+                <div class="contact__content">
+                    <div class="contact__form-wrapper">
+                        <form class="contact__form" id="contact-form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                                <span class="form-error" id="name-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                                <span class="form-error" id="email-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" class="form-input form-input--textarea" rows="5" required></textarea>
+                                <span class="form-error" id="message-error"></span>
+                            </div>
+                            <button type="submit" class="btn btn--primary">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="contact__social">
+                        <h3 class="contact__social-title">Connect With Me</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="LinkedIn Profile">LinkedIn</a>
+                            <a href="#" class="social-link" aria-label="GitHub Profile">GitHub</a>
+                            <a href="#" class="social-link" aria-label="Twitter Profile">Twitter</a>
+                            <a href="mailto:alex@example.com" class="social-link" aria-label="Email Contact">Email</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p class="footer__copyright">&copy; 2025 Alex Chen. All rights reserved.</p>
+                <nav class="footer__nav">
+                    <a href="#about" class="footer__link">About</a>
+                    <a href="#projects" class="footer__link">Projects</a>
+                    <a href="#contact" class="footer__link">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
