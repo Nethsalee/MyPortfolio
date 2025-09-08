@@ -1,8 +1,3 @@
-/*
-  Portfolio JavaScript - Interactive functionality
-  Features: Mobile nav, smooth scrolling, form validation,
-  scroll animations, accessibility enhancements
-*/
 
 (function() {
   'use strict';
