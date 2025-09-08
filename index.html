@@ -9,8 +9,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nethsalee - Tech Enthusiast</title>
+    <title>Nethsalee Samarawickrama</title>
     <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+
 </head>
 <body>
     <header class="header">
@@ -40,8 +46,10 @@
         <section class="hero">
             <div class="container">
                 <div class="hero__content">
-                    <h1 class="hero__title">Frontend Developer & UI/UX Designer</h1>
-                    <p class="hero__subtitle">Creating beautiful, accessible web experiences with modern technologies</p>
+                    <h1 class="hero__title">Design.Code.Secure.</h1>
+                    <h3 class="hero__content">Web Developer & Security Analyst</h3>
+                    <p class="hero__subtitle">Exploring the intersection of Web Development & Cyber Security</p>
+            
                     <a href="#projects" class="btn btn--primary hero__cta">View My Work</a>
                 </div>
             </div>
@@ -78,45 +86,39 @@
                 <div class="projects__grid">
                     <article class="project-card">
                         <div class="project-card__image">
+                            <img src="Images/project1.PNG" alt="Project1 screenshot" class="project-thumbnail-img">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Portfolio Showcase</h3>
+                            <p class="project-card__description">
+                                A responsive personal website showcasing my skills, projects, and contact information. Designed to highlight my work in a clear and modern layout
+                            </p>
+                            <ul class="project-card__tech">
+                                <li>html</li>
+                                <li>css</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="project-card__actions">
+                                <a href="#" class="btn btn--outline btn--small">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card__image">
                             <div class="project-thumbnail"></div>
                         </div>
                         <div class="project-card__content">
-                            <h3 class="project-card__title">E-Commerce Dashboard</h3>
+                            <h3 class="project-card__title">Fitness Platform (Upcoming)</h3>
                             <p class="project-card__description">
-                                Modern admin dashboard with real-time analytics, inventory management, 
-                                and responsive design built with React and D3.js.
+                                A modern fitness website designed to showcase gym services, workout programs, and memberships. Features a clean, user-friendly interface with responsive design for all devices
                             </p>
                             <ul class="project-card__tech">
                                 <li>React</li>
                                 <li>TypeScript</li>
-                                <li>D3.js</li>
-                                <li>Node.js</li>
-                            </ul>
-                            <div class="project-card__actions">
-                                <a href="#" class="btn btn--secondary btn--small">Live Demo</a>
-                                <a href="#" class="btn btn--outline btn--small">GitHub</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <div class="project-card__image">
-                            <div class="project-thumbnail"></div>
-                        </div>
-                        <div class="project-card__content">
-                            <h3 class="project-card__title">Weather Forecast App</h3>
-                            <p class="project-card__description">
-                                Clean, intuitive weather app with location-based forecasts, 
-                                animated weather icons, and offline support using service workers.
-                            </p>
-                            <ul class="project-card__tech">
-                                <li>Vue.js</li>
-                                <li>PWA</li>
                                 <li>CSS Grid</li>
-                                <li>APIs</li>
                             </ul>
                             <div class="project-card__actions">
-                                <a href="#" class="btn btn--secondary btn--small">Live Demo</a>
                                 <a href="#" class="btn btn--outline btn--small">GitHub</a>
                             </div>
                         </div>
@@ -127,19 +129,17 @@
                             <div class="project-thumbnail"></div>
                         </div>
                         <div class="project-card__content">
-                            <h3 class="project-card__title">Task Management Tool</h3>
+                            <h3 class="project-card__title">Task Management Tool (Upcoming)</h3>
                             <p class="project-card__description">
                                 Collaborative task management platform with drag-and-drop functionality, 
                                 real-time updates, and team collaboration features.
                             </p>
                             <ul class="project-card__tech">
                                 <li>JavaScript</li>
-                                <li>Socket.io</li>
                                 <li>Express</li>
                                 <li>MongoDB</li>
                             </ul>
                             <div class="project-card__actions">
-                                <a href="#" class="btn btn--secondary btn--small">Live Demo</a>
                                 <a href="#" class="btn btn--outline btn--small">GitHub</a>
                             </div>
                         </div>
@@ -202,16 +202,22 @@
                             <button type="submit" class="btn btn--primary">Send Message</button>
                         </form>
                     </div>
-                    <div class="contact__social">
-                        <h3 class="contact__social-title">Connect With Me</h3>
-                        <div class="social-links">
-                            <a href="#" class="social-link" aria-label="LinkedIn Profile">LinkedIn</a>
-                            <a href="#" class="social-link" aria-label="GitHub Profile">GitHub</a>
-                            <a href="#" class="social-link" aria-label="Twitter Profile">Twitter</a>
-                            <a href="mailto:alex@example.com" class="social-link" aria-label="Email Contact">Email</a>
-                        </div>
-                    </div>
-                </div>
+                  <div class="contact__social">
+  <h3>Connect with me</h3>
+  <div class="social-icons">
+    
+    <a href="https://www.linkedin.com/in/nethsalee-samarawickrama-83b825336/" target="_blank" aria-label="LinkedIn">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://github.com/Nethsalee" target="_blank" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="mailto:nethsalees@gmail.com" aria-label="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+</div>
+
             </div>
         </section>
     </main>
@@ -219,7 +225,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__content">
-                <p class="footer__copyright">&copy; 2025 Alex Chen. All rights reserved.</p>
+                <p class="footer__copyright">&copy; 2025 Nethsalee Samarawickrama. All rights reserved.</p>
                 <nav class="footer__nav">
                     <a href="#about" class="footer__link">About</a>
                     <a href="#projects" class="footer__link">Projects</a>
